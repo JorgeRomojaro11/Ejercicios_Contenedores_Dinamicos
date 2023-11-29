@@ -12,4 +12,8 @@ int main() {
     } catch (const boost::bad_lexical_cast& e) {
         std::cerr << "Error: " << e.what() << std::endl;
     }
+    std::cout << "Fin del programa." << std::endl;
+
+    return 0;
+}
 
