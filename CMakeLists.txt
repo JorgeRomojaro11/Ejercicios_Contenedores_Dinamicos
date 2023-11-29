@@ -3,7 +3,7 @@ project(BoostExample)
 
 set(CMAKE_CXX_STANDARD 14)
 
-set(BOOST_ROOT "path/to/your/boost")
+set(BOOST_ROOT "C:/Program Files/boost_1_83_0")
 
 find_package(Boost 1.75.0)
 
