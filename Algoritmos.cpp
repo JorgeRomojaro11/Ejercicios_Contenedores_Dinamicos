@@ -11,5 +11,10 @@ int main() {
         std::cout << "- " << num << std::endl;
     }
     int maxNum = *std::max_element(numeros.begin(), numeros.end());
+    std::cout << "Número máximo: " << maxNum << std::endl;
 
+    std::cout << "Fin del programa." << std::endl;
+
+    return 0;
+    }
 
