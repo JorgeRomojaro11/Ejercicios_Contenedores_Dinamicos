@@ -8,3 +8,12 @@ int main() {
     std::cout << "Media: " << valores.sum() / valores.size() << std::endl;
     valores += 5.0;
     std::cout << "Valores + 5.0: ";
+    for (double valor : valores) {
+        std::cout << valor << " ";
+    }
+    std::cout << std::endl;
+
+    std::cout << "Fin del programa." << std::endl;
+
+    return 0;
+}
