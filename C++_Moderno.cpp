@@ -12,4 +12,11 @@ int main() {
     std::for_each(numeros.begin(), numeros.end(), [](int num) {
         std::cout << "- " << num << std::endl;
     });
+    std::cout << "Fin de la iteración sobre el vector." << std::endl;
+    std::shared_ptr<int> ptr(new int(10));
+    std::cout << "Valor apuntado por ptr: " << *ptr << std::endl;
+    std::cout << "Fin del programa." << std::endl;
+
+    return 0;
 }
+
